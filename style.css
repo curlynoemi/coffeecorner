@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17x;
+  line-height: 20px;
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    #c68147,
+    #cd9262,
+    #d3a27d,
+    #d7b398,
+    #dac4b4
+  );
+}
+/*----------COLORBOX----------*/
+.caffè_a_casa_colorbox {
+  padding: 60px;
+  height: auto;
+  background: url("IMMAGINI/packaging.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+.colorbox_chi_siamo {
+  height: auto;
+  background-color: #f0d2ba;
+  padding-top: 70px;
+}
+
+/*----------TESTO----------*/
+h1 {
+  font-family: Playfair Display;
+  font-size: 45px;
+  text-align: center;
+  color: #522e15;
+  margin-bottom: 15px;
+}
+/*----------VIDEO----------*/
+video {
+  width: 100%;
+  height: auto;
+}
+/*----------BUTTON----------*/
+button {
+  background-color: #764523;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 50px;
+}
+button:hover {
+  background-color: #f0d2ba;
+}
+a {
+  color: #fff;
+  font-family: Josefin Sans;
+}
+a:hover {
+  color: #522e15;
+}
+/*----------TOPNAV----------*/
+.topnav {
+  overflow: hidden;
+  background-color: #522e15;
+}
+.topnav a {
+  margin-top: 15px;
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  color: #f0d2ba;
+}
+/*----------2 COLUMN----------*/
+.container_2-col div {
+  box-sizing: border-box;
+  padding: 4%;
+}
+.col-1,
+.col-2 {
+  width: 50%;
+  float: left;
+}
+/*----------3 COLUMN----------*/
+.container_3-col div {
+  box-sizing: border-box;
+  padding: 4%;
+}
+.left-col,
+.center-col,
+.right-col {
+  width: 33%;
+  float: left;
+  height: 40px;
+  margin-bottom: 70px;
+}
+/*----------CHI SIAMO----------*/
+.container {
+  background-color: #f0d2ba;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 30px;
+}
+.card {
+  width: auto;
+  height: auto;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+/*----------DELIVERY----------*/
+.container_3-col {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  height: auto;
+}
+.img_delivery {
+  width: 170px;
+}
+/*---------------- slideshow ----------------*/
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.slide_title {
+  color: #f2f2f2;
+  font-size: 80px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #522e15;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #764523;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*----------BEST SELLER COFFEES----------*/
+.wrapper {
+  margin-top: 50px;
+}
+.wrapper h1 {
+  font-family: Playfair Display;
+  font-size: 45px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.team .team_member {
+  margin: 50px;
+  margin-bottom: 30px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: black;
+  position: relative;
+}
+.team .team_member h3 {
+  color: #522e15;
+  font-size: 26px;
+  margin-top: 50px;
+}
+.team .team_member p.role {
+  color: #000;
+  margin: 12px 0;
+  font-size: 25px;
+  font-family: Playfair Display;
+}
+.team .team_member .team_img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+}
+.team .team_member .team_img img {
+  width: 100px;
+  height: auto;
+  padding: 5px;
+}
+/*----------MAPPA----------*/
+.mappa {
+  padding-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.googlemap {
+  margin-top: 25px;
+  width: 100%;
+}
+/*----------FOOTER----------*/
+.footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  margin-top: 0px;
+  text-align: center;
+  height: auto;
+  background: url("IMMAGINI/coffe_shop_wlights2.png") no-repeat center;
+  background-size: cover;
+}
+.footer_title {
+  color: white;
+  font-family: Allura;
+  font-size: 45px;
+  margin: 20px;
+}
+.newsletter {
+  color: white;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .centercolumn,
+  .rightcolumn,
+  .header,
+  .footer,
+  .column_1,
+  .column_2 {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+  .container_3-col {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
